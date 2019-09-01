@@ -10,17 +10,49 @@
     <script src="script.js"></script>
 </head>
 <body>
-    <h1>Salary Calculator</h1>
-    <p>Add Employee</p>
-    <div class="inputField">
-        <input id="firstName" type="text" placeholder="First Name"/>
-        <input id="lastName" type="text" placeholder="Last Name"/>
-        <input id="id" type="text" placeholder="ID" />
-        <input id="title" type="text" placeholder="Title" />
-        <input id="annualSalary" type="text" placeholder="Annual Salary"/>
-    </div>
-    <div class="submitButton">
-        <button id="submitBtn">Submit</button>
-    </div>
+    <header>
+        <h1>Salary Calculator</h1>
+        <h2>Add Employee</h2>
+        <div class="inputField">
+            <input id="firstName" type="text" placeholder="First Name" />
+            <input id="lastName" type="text" placeholder="Last Name" />
+            <input id="idNumber" type="number" placeholder="ID" />
+            <input id="title" type="text" placeholder="Title" />
+            <input id="annualSalary" type="number" placeholder="Annual Salary" />
+        </div>
+        <div class="submitButton">
+            <button id="submitBtn">Submit</button>
+        </div>
+    </header>
+    <main>
+        <h2>Employees</h2>
+        <div class="employeeInfo">
+            <tr>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>ID</th>
+                <th>Title</th>
+                <th>Annual Salary</th>
+            </tr>
+            <tr>
+                <td id='firstName'></td>
+                <td id='lastName'></td>
+                <td id='idNumber'></td>
+                <td id='title'></td>
+                <td id='annualSalary'></td>
+                <td id='firstName'></td>
+            </tr>
+            </div>
+            <ul id='employeeOut'>
+            </ul>
+
+
+        <h2>Total Monthly:
+            <span id="totalOut"></span>
+        </h2>
+        <div class="deleteButton">
+            <button id="deleteBtn">DELETE</button>
+        </div>
+    </main>
 </body>
 </html>

@@ -5,10 +5,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Salary Calculator</title>
+    <link rel="stylesheet" href="styles.css"/>
     <script src="jquery-3.4.1.min.js"></script>
-    <script src="client.js"></script>
+    <script src="script.js"></script>
 </head>
 <body>
     <h1>Salary Calculator</h1>
+    <p>Add Employee</p>
+    <div class="inputField">
+        <input id="firstName" type="text" placeholder="First Name"/>
+        <input id="lastName" type="text" placeholder="Last Name"/>
+        <input id="id" type="text" placeholder="ID" />
+        <input id="title" type="text" placeholder="Title" />
+        <input id="annualSalary" type="text" placeholder="Annual Salary"/>
+    </div>
+    <div class="submitButton">
+        <button id="submitBtn">Submit</button>
+    </div>
 </body>
 </html>

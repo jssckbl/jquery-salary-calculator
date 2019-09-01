@@ -1,1 +1,31 @@
+h1 {
+    text-align: center;
+}
 
+.inputField {
+    horizontal-align: left;
+}
+
+#firstName {
+    border: 1px solid black;
+}
+
+#lastName {
+    border: 1px solid black;
+}
+
+#id {
+    border: 1px solid black;
+}
+
+#title {
+    border: 1px solid black;
+}
+
+#annualSalary {
+    border: 1px solid black;
+}
+
+.submitButton {
+  text-align: right;
+}

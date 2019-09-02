@@ -14,7 +14,7 @@ h1 {
     border: 1px solid black;
 }
 
-#id {
+#idNumber {
     border: 1px solid black;
 }
 
@@ -28,4 +28,18 @@ h1 {
 
 .submitButton {
   text-align: right;
+}
+
+.firstName {
+    border: 1px solid black;
+}
+table,
+td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 10px;
+}
+
+.overCost {
+    background-color: red;
 }

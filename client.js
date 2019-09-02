@@ -35,11 +35,11 @@ function displayEmployee(){
     el.empty();
     el.append(
         `<tr>
-            <th>First Name</th>
-            <th>Last Name</th>
-            <th>ID</th>
-            <th>Title</th>
-            <th>Annual Salary</th>
+            <th>| First Name</th>
+            <th>| Last Name</th>
+            <th>| ID</th>
+            <th>| Title</th>
+            <th>| Annual Salary</th>
         </tr>`);
     //
     for( let i = 0; i<employeeInfo.length; i++){

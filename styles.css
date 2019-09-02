@@ -1,5 +1,18 @@
 h1 {
     text-align: center;
+    background-color: lightgoldenrodyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  
+}
+
+h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue; 
+    background-color: lightgray;   
+}
+
+h3 {
+    text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .inputField {
@@ -24,6 +37,7 @@ h1 {
 
 #annualSalary {
     border: 1px solid black;
+
 }
 
 .submitButton {
@@ -33,6 +47,20 @@ h1 {
 .firstName {
     border: 1px solid black;
 }
+
+.employeeTable {
+    background-color: lightcyan;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table,
+tr {
+    border-botton: 5px solid black;
+    border-right: 5px solid black;
+    padding 10px;
+    text-align: left;
+}
+
 table,
 td {
     border-bottom: 1px solid black;

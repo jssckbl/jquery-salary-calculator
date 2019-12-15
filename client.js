@@ -9,6 +9,12 @@ console.log( 'js' );
 
 $(document).ready(onReady);
 
+function onReady() {
+    $('#submitBtn').on('click', employee);
+    calcMonthly();
+    displayEmployee();
+}
+
 let employeeInfo = [];
 
 function employee(){
@@ -61,11 +67,7 @@ function deleteItem (){
     $(this).parent().parent().remove(); // one .parent() removes the td, second .parent() removes the tr
 }
 // create 'Submit' button to collect form information
-function onReady(){
-    $( '#submitBtn' ).on( 'click' , employee);
-    calcMonthly();
-    displayEmployee();
-}
+
 
 function calcMonthly(){
     let totalMonthlySpent = 0;
